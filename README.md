@@ -20,8 +20,14 @@ yearn --version
 yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol
 ```
 
-#### or
+or
 
 ```sh
 yarn compile
+```
+
+### run deploy.ts script (example)
+
+```sh
+PRIVATE_KEY_PASSWORD=password  yarn ts-node deploy.ts
 ```
